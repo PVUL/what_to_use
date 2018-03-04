@@ -12,7 +12,7 @@ First off, if you have a fresh macbook, the first things to get are:
 
 _The missing package manager for macOS_ and the essential tool for any developer.
 
-Press `⌘ + space`  and type `terminal`  and press <enter>. A new terminal session should be up. In terminal paste the following:
+Press `⌘ + space`  and type `terminal`  and press `<enter>`. A new terminal session should be up. In terminal paste the following:
 
 ```shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -30,7 +30,7 @@ With homebrew installed, we can install iTerm via `homebrew cask`:
 brew cask install iterm2
 ```
 
-Press `⌘ + space`, type `iterm`, and press <enter>. You are now using iTerm!
+Press `⌘ + space`, type `iterm`, and press `<enter>`. You are now using iTerm!
 
 #### Zsh
 
