@@ -62,6 +62,7 @@ _Note: Doing the above tells the system to use programs installed by Homebrew, r
 **Git workflow visualizer**
 
 - SourceTree `brew cask install sourcetree`
+- Sublime Merge `brew cask install sublime-merge`
 
 **Testing/Debugging**
 
@@ -71,8 +72,9 @@ _Note: Doing the above tells the system to use programs installed by Homebrew, r
 **Web browsers**
 
 - Google Chrome `brew cask install google-chrome`
-- Google Chrome Canary `brew cask install canary`
+- Google Chrome Canary `brew cask install google-chrome-canary`
 - Vivaldi `brew cask install vivaldi`
+- Brave Browser `brew cask install brave-browser`
 
 **Window manager**
 
@@ -93,9 +95,26 @@ _Note: Doing the above tells the system to use programs installed by Homebrew, r
 
 - Typora `brew cask install typora`
 
+**DB GUI**
+
+- Postico (for postgreSQL) `brew cask install postico`
+
+**Credential Management**
+
+- 1Password `brew cask install 1password`
+- MacPass `brew cask install macpass`
+
 **Misc**
 
 - Flux `brew cask install flux` 
   (this feature is built-in to newer MacOS)
 - Duet `brew cask install duet`
   for dual screen set-up
+
+---
+
+#### To remove the [delete key delay](http://hints.macworld.com/article.php?story=20090823193018149)
+```
+defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain InitialKeyRepeat -int 0
+```
