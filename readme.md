@@ -117,4 +117,5 @@ _Note: Doing the above tells the system to use programs installed by Homebrew, r
 ```
 defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write NSGlobalDomain InitialKeyRepeat -int 0
+defaults write -g ApplePressAndHoldEnabled -bool false
 ```
