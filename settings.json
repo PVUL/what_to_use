@@ -1,0 +1,51 @@
+{
+  // Prettier
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "workbench.settings.useSplitJSON": true,
+  "workbench.settings.editor": "json",
+  // "editor.wordWrap": "bounded",
+  // The number of spaces a tab is equal to. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.tabSize": 2,
+  // Insert spaces when pressing Tab. This setting is overriden
+  // based on the file contents when `editor.detectIndentation` is true.
+  "editor.insertSpaces": true,
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+  // will be detected based on the file contents.
+  "editor.detectIndentation": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "go.formatTool": "gofmt",
+  "gitlens.keymap": "alternate",
+  "explorer.confirmDragAndDrop": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  // https://github.com/Microsoft/TypeScript/issues/6997
+  "javascript.validate.enable": false,
+  // flow
+  "flow.useNPMPackagedFlow": true,
+  "explorer.confirmDelete": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "python.jediEnabled": false,
+  // Example for language based indentation:
+  "indentRainbow.indentSetter": {
+    "python": {
+      "tabSize": 2,
+      "insertSpaces": true
+    }
+  },
+  "prettier.singleQuote": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "editor.suggestSelection": "first",
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
