@@ -12,7 +12,7 @@ First off, if you have a fresh macbook, the first things to get are:
 
 _The missing package manager for macOS_ and the essential tool for any developer.
 
-Press `⌘ + space`  and type `terminal`  and press `<enter>`. A new terminal session should be up. In terminal paste the following:
+Press `⌘ + space` and type `terminal` and press `<enter>`. A new terminal session should be up. In terminal paste the following:
 
 ```shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -24,10 +24,10 @@ _Note: Command Line Tools for Xcode is a dependency for this action, which can b
 
 _A terminal emulator for macOS that does amazing things._
 
-With homebrew installed, we can install iTerm via `homebrew cask`:
+With homebrew installed, we can install iTerm via `brew install` (taps homebrew/cask):
 
 ```shell
-brew cask install iterm2
+brew install iterm2
 ```
 
 Press `⌘ + space`, type `iterm`, and press `<enter>`. You are now using iTerm!
@@ -88,7 +88,7 @@ _Note: Doing the above tells the system to use programs installed by Homebrew, r
 **Agile**
 
 - Trello [`trello.com`](https://trello.com)
-- Harvest `brew cask install harvest` 
+- Harvest `brew cask install harvest`
   for time-tracking
 
 **Markdown editor**
@@ -106,7 +106,7 @@ _Note: Doing the above tells the system to use programs installed by Homebrew, r
 
 **Misc**
 
-- Flux `brew cask install flux` 
+- Flux `brew cask install flux`
   (this feature is built-in to newer MacOS)
 - Duet `brew cask install duet`
   for dual screen set-up
@@ -114,6 +114,7 @@ _Note: Doing the above tells the system to use programs installed by Homebrew, r
 ---
 
 #### To remove the [delete key delay](http://hints.macworld.com/article.php?story=20090823193018149)
+
 ```
 defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write NSGlobalDomain InitialKeyRepeat -int 0
