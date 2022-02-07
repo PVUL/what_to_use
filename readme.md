@@ -120,3 +120,49 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write NSGlobalDomain InitialKeyRepeat -int 0
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
+
+---
+
+## Creating _memorable_ passwords in command line interface
+
+While you can use [Mac OS's Keychain Access app to generate a password](https://eshop.macsales.com/blog/56895-generate-a-memorable-password-in-macos-with-password-assitant/) or test the strength of a password, it's not nearly as cool as doing it in terminal- and at the time of this writing, there is no way to generate a _memorable_ password with the native app.
+
+_Memorable_ passwords are easier to remember than traditional passwords as they are a random collection of commonly used english words. There are many way to create _memorable_ passwords, below are two ways.
+
+### Option 1: Using `shuf`
+
+1. Install `shuf`
+
+```bash
+brew install coreutils
+```
+
+2. Use `shuf` like so:
+
+```bash
+shuf -n4 /usr/share/dict/words | xargs echo | pbcopy && pbpaste
+```
+
+The above will output the generated password and also copy it to clipboard. Just paste (`⌘ + v`) the password where necessary.
+
+To adjust complexity of password, change the number following `-n`, for example `-n4` outputs 4 words, where as `-n5` would output 5 words so it has higher entropy, increasing guess difficulty. An argument of `-n3` outputs 3 words, therefore decreases complexity and guess difficulty. At the time of this writing
+
+To hide the password output in the CLI, remove `&& pbpaste` from the above script.
+
+### Option 2: Using [`xkcdpass`](https://github.com/redacted/XKCD-password-generator)
+![Password Strength](https://imgs.xkcd.com/comics/password_strength.png)
+
+1. Install `xkcdpass`
+
+```
+pip install xkcdpass
+```
+
+2. Running `xkcdpass`
+
+```
+$ xkcdpass
+> pinball previous deprive militancy bereaved numeric
+```
+
+For more, see https://github.com/redacted/XKCD-password-generator#running-xkcdpass
