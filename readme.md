@@ -55,61 +55,63 @@ _Note: Doing the above tells the system to use programs installed by Homebrew, r
 
 **IDEs**
 
-- Atom `brew cask install atom`
-- VSCode `brew cask install visual-studio-code` - _preferred_
-- Sublime `brew cask install sublime-text`
+- Atom `brew install atom`
+- VSCode `brew install visual-studio-code` - _preferred_
+- Sublime `brew install sublime-text`
 
 **Git workflow visualizer**
 
-- SourceTree `brew cask install sourcetree`
-- Sublime Merge `brew cask install sublime-merge`
+- SourceTree `brew install sourcetree`
+- Sublime Merge `brew install sublime-merge`
 
 **Testing/Debugging**
 
-- Postman `brew cask install postman`
-- Charles `brew cask install charles`
+- Postman `brew install postman`
+- Charles `brew install charles`
 
 **Web browsers**
 
-- Google Chrome `brew cask install google-chrome`
-- Google Chrome Canary `brew cask install google-chrome-canary`
-- Vivaldi `brew cask install vivaldi`
-- Brave Browser `brew cask install brave-browser`
+- Google Chrome `brew install google-chrome`
+- Google Chrome Canary `brew install google-chrome-canary`
+- Vivaldi `brew install vivaldi`
+- Brave Browser `brew install brave-browser`
 
 **Window manager**
 
-- Spectacle `brew cask install spectacle`
+- Spectacle `brew install spectacle`
 
 **Communication**
 
-- Slack `brew cask install slack`
-- IrcCloud `brew cask install irccloud`
+- Slack `brew install slack`
+- IrcCloud `brew install irccloud`
 
 **Agile**
 
 - Trello [`trello.com`](https://trello.com)
-- Harvest `brew cask install harvest`
+- Harvest `brew install harvest`
   for time-tracking
 
 **Markdown editor**
 
-- Typora `brew cask install typora`
+- Typora `brew install typora`
 
 **DB GUI**
 
-- Postico (for postgreSQL) `brew cask install postico`
+- Postico (for postgreSQL) `brew install postico`
 
 **Credential Management**
 
-- 1Password `brew cask install 1password`
-- MacPass `brew cask install macpass`
+- 1Password `brew install 1password`
+- MacPass `brew install macpass`
 
 **Misc**
 
-- Flux `brew cask install flux`
+- Flux `brew install flux`
   (this feature is built-in to newer MacOS)
-- Duet `brew cask install duet`
+- Duet `brew install duet`
   for dual screen set-up
+- [Charles Proxy](https://www.charlesproxy.com/) `brew install charles`
+  for viewing all HTTP(S) incoming and outgoing traffic
 
 ---
 
